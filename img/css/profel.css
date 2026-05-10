@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color:   #036c1f;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background-color: rgba(168, 255, 111, 1);
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc300;
+}
+
+.profile-section {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.profile-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: left;
+}
+
+.profile-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-stats {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.profile-stats h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.profile-stats label {
+    display: block;
+    margin-bottom: 10px;
+}
+.profile-stats input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.profile-stats button {
+    background-color: rgba(168, 255, 111, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-stats button:hover {
+    background-color:  rgba(168, 255, 111, 1);
+}
+
+footer {
+    background-color:  #036c1f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
