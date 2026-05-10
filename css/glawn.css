@@ -91,7 +91,6 @@ header .conteiner {
     margin-left: 60px;
 }
 .welcome {
-    background-image: url("/img/fon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
